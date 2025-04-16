@@ -10,7 +10,7 @@ const state = {
         gameVelocity:900,
         hitPosition: 0,
         result: 0,
-        currentTime: 10,
+        currentTime: 45,
         currentLives: 3,
     },
     
@@ -28,7 +28,7 @@ function playSound(audioName){
 }
 
 function resetGame(){
-    state.values.currentTime = 10;
+    state.values.currentTime = 45;
     state.view.timeLeft.textContent = state.values.currentTime;
 
     state.values.result = 0;
